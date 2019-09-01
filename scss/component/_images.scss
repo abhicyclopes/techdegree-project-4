@@ -21,4 +21,8 @@
   
   .img-logo {
     @include center;
+    @include mq {
+      margin-left: initial;
+      margin-right: initial;
+    }
   }

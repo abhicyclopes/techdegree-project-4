@@ -10,6 +10,13 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &:hover {
+      transition: background-color .5s ease-in-out;
+      background-color: $color-primary-light;
+    }
+    @include mq {
+      padding: 10px 30px;
+    }
   }
   
   .default {
