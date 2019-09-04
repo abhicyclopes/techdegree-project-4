@@ -17,6 +17,11 @@
     @include mq {
       padding: 10px 30px;
     }
+    & + & {
+      @include mq {
+        margin-left: 10px;
+      }
+    }
   }
   
   .default {
